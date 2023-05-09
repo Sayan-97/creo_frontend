@@ -1,0 +1,101 @@
+/* FONT OUTFIT */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== SCROLL BAR ===== */
+::-webkit-scrollbar {
+  width: 4px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(96.99deg, #15DBFF 0%, #A514FC 104.31%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+/* CUSTOM CSS */
+
+html{
+  @apply scroll-smooth
+}
+
+body{
+  @apply bg-background text-white text-sm font-Outfit font-regular overflow-x-hidden 
+}
+
+.container{
+  @apply w-11/12 lg:w-[80%] 3xl:w-[70%] mx-auto;
+}
+
+h1 {
+  @apply text-5xl md:text-6xl font-semibold
+}
+
+h2 {
+  @apply text-4xl lg:text-5xl font-semibold;
+}
+
+h3 {
+  @apply text-4xl font-semibold;
+}
+
+h4 {
+  @apply text-3xl font-semibold
+}
+
+h5 {
+  @apply text-2xl font-medium;
+}
+
+h6 {
+  @apply text-xl font-medium;
+}
+
+a{
+  @apply text-lg lg:text-xl;
+}
+
+button{
+  @apply text-lg
+}
+
+input{
+  @apply placeholder:text-lg outline-none
+}
+
+form{
+  @apply lg:w-[60%]
+}
+
+label{
+  @apply text-lg
+}
+
+input{
+  @apply rounded-button text-black text-lg h-10 px-2
+}
+
+select{
+  @apply rounded-button text-lg h-10 text-black
+}
+
+textarea{
+  @apply rounded-button w-full h-24 text-black p-2 text-lg
+}
+
+.textGrad{
+  @apply bg-gradient text-transparent bg-clip-text
+}
+
+.secondary{
+  background-image: url('./assets/gradients/ButtonGrad.svg');
+  background-size: cover;
+}
