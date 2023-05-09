@@ -24,7 +24,7 @@ const Header = () => {
       <nav className='container flex items-center py-2'>
         {/* Logo */}
         <Link to={`${userType === 'client' ? '/client/dashboard' : userType === 'freelancer' ? '/freelancer/find-work' : '/'}`}>
-          <img src={CreoLogo} alt="img" className='md:w-32 lg:w-24 3xl:w-28 inline-flex' />
+          <img src={CreoLogo} alt="img" className='w-24 md:w-32 lg:w-24 3xl:w-28 inline-flex' />
         </Link>
 
         {/* PC View */}

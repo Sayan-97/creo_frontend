@@ -310,14 +310,16 @@ const AsFreelancer = () => {
 
                 {/* Checkbox's */}
                 <div className='grid'>
-                    <div className='space-x-2 flex items-start'>
-                        <input type="checkbox" id='mail' className='h-6' />
+                    <div className='space-x-2 flex items-center'>
+                        <input type="checkbox" id='mail' className='w-4' />
                         <label htmlFor="mail" className='text-base'>Send me emails and announcements made on Creo Network</label>
                     </div>
 
                     <div className='space-x-2 flex items-start'>
-                        <input type="checkbox" id='tnc' className='h-6' />
-                        <label htmlFor="tnc" className='text-base'>Yes, I understand and agree to the Creo Network Terms of Service, including the User Agreement and Privacy Policy.</label>
+                        <div>
+                            <input type="checkbox" id='tnc' className='w-4' />
+                        </div>
+                        <label htmlFor="tnc" className='text-base mt-1.5'>Yes, I understand and agree to the Creo Network Terms of Service, including the User Agreement and Privacy Policy.</label>
                     </div>
                 </div>
 

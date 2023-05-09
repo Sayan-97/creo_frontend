@@ -81,7 +81,7 @@ const ExploreProjects = () => {
             <div className='flex gap-8'>
                 {['DEVELOPERS', 'DESIGNERS'].map((item, index) => {
                     return(
-                        <button key={index} onClick={() => setActiveList(item)} className='bg-gradient p-[1px] rounded-button'><p className={`${item === activeList ? 'bg-gradient' : 'bg-background'} w-40 py-2 rounded-button`}>{item}</p></button>
+                        <button key={index} onClick={() => setActiveList(item)} className='bg-gradient p-[1px] rounded-button'><p className={`${item === activeList ? 'bg-gradient' : 'bg-background'} w-32 md:w-40 py-2 rounded-button`}>{item}</p></button>
                     )
                 })}
             </div>

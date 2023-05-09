@@ -28,7 +28,7 @@ html{
 }
 
 body{
-  @apply bg-background text-white text-sm font-Outfit font-regular
+  @apply bg-background text-white text-sm font-Outfit font-regular select-none
 }
 
 .container{
@@ -98,4 +98,8 @@ textarea{
 .secondary{
   background-image: url('./assets/gradients/ButtonGrad.svg');
   background-size: cover;
+}
+
+img {
+  pointer-events: none;
 }
