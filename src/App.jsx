@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="min-h-screen flex flex-col py-2">
+      <div className="min-h-screen flex flex-col py-2 overflow-x-hidden">
         {/* Header */}
         <Header />
         <main className="flex-grow mt-5 lg:mt-16">

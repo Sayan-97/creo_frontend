@@ -28,7 +28,7 @@ html{
 }
 
 body{
-  @apply bg-background text-white text-sm font-Outfit font-regular overflow-x-hidden 
+  @apply bg-background text-white text-sm font-Outfit font-regular
 }
 
 .container{
